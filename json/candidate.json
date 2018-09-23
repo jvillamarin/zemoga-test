@@ -1,0 +1,47 @@
+
+[
+    {   
+        "id": 0,
+        "img_src": "images/kanye_west.jpg",
+        "name": "kanye west",
+        "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "job": "<span>1 month ago</span></br> in business",
+        "likeVote": 0,
+        "dislikeVote": 0,
+        "percentLike": 0,
+        "percentDisLike": 0
+    },
+    {
+        "id": 1,
+        "img_src": "images/mark_zuckerberg.jpg",
+        "name": "mark zuckerberg",
+        "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "job": "<span>1 month ago</span></br> in Entertainment",
+        "likeVote": 0,
+        "dislikeVote": 0,
+        "percentLike": 0,
+        "percentDisLike": 0
+    },
+    {
+        "id": 2,
+        "img_src": "images/cristina_fernandez.jpg",
+        "name": "cristina fernández de kirchner",
+        "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "job": "<span>1 month ago</span></br> in politics",
+        "likeVote": 0,
+        "dislikeVote": 0,
+        "percentLike": 0,
+        "percentDisLike": 0
+    },
+    {
+        "id": 3,
+        "img_src": "images/malala_yousafzai.jpg",
+        "name": "malala yousafzai",
+        "description": "Vestibulum diam ante, porttitor a odio eget, rhoncus neque. Aenean eu velit libero.",
+        "job": "<span>1 month ago</span></br> in Entertainment",
+        "likeVote": 0,
+        "dislikeVote": 0,
+        "percentLike": 0,
+        "percentDisLike": 0
+    }
+]

@@ -1,0 +1,37 @@
+
+@font-face {
+	font-family: 'lato-regular';
+	src: url('../fonts/Lato-Regular.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Lato-regular.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/Lato-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('../fonts/Lato-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Lato-Regular.svg#svgbodoni') format('svg'); /* Legacy iOS */
+  }
+  @font-face {
+	font-family: 'lato-light';
+	src: url('../fonts/Lato-Light.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Lato-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Lato-light.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/Lato-Light.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('../fonts/Lato-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Lato-Light.svg#svgLato-Light') format('svg'); /* Legacy iOS */
+  }
+  @font-face {
+	font-family: 'lato-bold';
+	src: url('../fonts/Lato-Bold.eot'); /* IE9 Compat Modes */
+	src: url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+		 url('../fonts/Lato-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		 url('../fonts/GothamBook.woff') format('woff'), /* Pretty Modern Browsers */
+		 url('../fonts/Lato-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+		 url('../fonts/Lato-Bold.svg#svggotham-bold') format('svg'); /* Legacy iOS */
+  }
+//   @font-face {
+// 	font-family: 'gotham-medium';
+// 	src: url('../fonts/gotham-medium.eot'); /* IE9 Compat Modes */
+// 	src: url('../fonts/gotham-medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+// 		 url('../fonts/gotham-medium.woff2') format('woff2'), /* Super Modern Browsers */
+// 		 url('../fonts/GothamMedium.woff') format('woff'), /* Pretty Modern Browsers */
+// 		 url('../fonts/gotham-medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+// 		 url('../fonts/GothamBold.svg#svggotham-bold') format('svg'); /* Legacy iOS */
+//   }

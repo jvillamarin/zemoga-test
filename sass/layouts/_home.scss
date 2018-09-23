@@ -1,0 +1,384 @@
+
+header{   
+    position: fixed;
+    width: 100%;  
+    z-index: 1; 
+    nav{        
+        max-width: 1025px;        
+        width: 100%;
+        margin: 0 auto;
+        .header-logo{
+            p{
+                font-family: 'lato-regular',  Verdana, sans-serif;
+                color: white;
+                font-size: 32px;
+            }
+        }
+        ul{ 
+            display: flex;
+            justify-content: space-around;                              
+            li{
+                font-family: 'lato-light',c;
+                color: white;
+                font-size: 16px;    
+                padding: 0 16px 0;             
+            }            
+        }    
+    }
+    nav.bg{
+        background-color: #fdb331cf;
+    }
+}
+.banner-section{
+    background-image: url("../images/pope_banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;  
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    background-position: center;
+    position: relative;
+    .container-box{
+        width: 500px;        
+        .content{
+            padding-left: 0;
+            padding-right: 0; 
+            background: #4e4d50bf; 
+            .info{
+                padding: 35px 35px 0;
+                p{
+                    font-family: 'lato-light', Verdana, sans-serif;
+                    color: white;
+                    font-size: 16px;
+                }
+                p:nth-child(3){
+                    font-family: 'lato-light', Verdana, sans-serif;
+                    color: white; 
+                    font-size: 16px;
+                    padding: 20px 0
+                }
+                h1{
+                    font-family: 'lato-bold', Verdana, sans-serif;
+                    font-size: 50px;
+                    color: white;
+                }
+                a{
+                    text-decoration: underline;
+                    color: white
+                }
+                h2{
+                    font-family: 'lato-bold', Verdana, sans-serif;
+                    font-size: 20px;
+                    padding: 32px 0
+                }
+            }          
+            
+            
+        }
+        .like, .dislike{
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{
+                background-image: url("../images/sprite.png");
+                background-repeat: no-repeat;
+                width: 40px;
+                height: 40px;
+                display: block;;
+            }
+        }
+        .like{
+            background-color: #2dbbb4af;
+            a{                
+                background-position: 0 0
+            }
+        }
+        .dislike{
+            background: #fdb331cf;
+            a{                
+                background-position: 0 -48px;
+            }
+        }
+    }
+    .bottom-vote{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        ul{            
+            display: flex;
+            li{
+                height: 50px;
+                background-color: #91847838;
+                width: 30%;
+                align-items: center;
+                display: flex; 
+                justify-content: flex-end;
+                padding: 0 10px;                
+                p{
+                    font-family: 'lato-regular', Verdana, sans-serif;
+                    font-size: 13px;
+                    color: white;                    
+                    text-transform: uppercase;
+                }
+            }
+            li.remaining-days{
+                justify-content:flex-start;  
+                background-color: #e5e5e4b0;
+                width: 70%;
+                p{                    
+                    font-size: 36px;
+                    color: #333333;
+                    text-transform: lowercase;  
+                }
+            }
+        }
+        
+    }     
+}
+main{
+    section{ 
+        h2{
+            font-family: 'lato-light', Verdana, sans-serif;
+            color: #333333;   
+            font-size: 40px;
+        }
+        article{
+            background-color: #ebebeb;
+            margin: 35px 0;
+            padding: 25px 10px;      
+            .head-text{
+                width: 350px;
+                p{
+                    font-family: 'lato-light', Verdana, sans-serif;
+                    font-size: 21px;
+                    color: #333333;
+                    line-height: 28px;
+                    span{
+                        font-family: 'lato-bold', Verdana, sans-serif;
+                        font-size: 35px; 
+                        color: #333333;                  
+                    }
+                }
+                
+            }
+            .body-text, .close-btn{
+                display: flex;
+                align-items: center;
+                p{
+                    font-family: 'lato-light', Verdana, sans-serif;
+                    font-size: 13px;
+                }
+            }
+            .close-btn{
+                padding: 20px;
+                font-size: 20px;
+            }
+        }
+        #candidates{
+            position: relative;
+           .imgStyle{
+            background-repeat: no-repeat;
+            height: 550px;
+            background-size: cover;
+            background-position: center top;
+            margin-top: 40px;
+            padding-right: 0;
+            padding-left: 0;
+            .candidates-vote{
+                padding-right: 0;
+                padding-left: 0;
+                ul{
+                    height: 50px;
+                    display: flex;
+                    justify-content: space-between;
+                    li{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center; 
+                    }
+                    li.green-content, li.orange-content{
+                        background-color:#2dbbb4af; 
+                        // min-width: 16vh;
+                        p{
+                            font-family: 'lato-light', Verdana, sans-serif;
+                            font-size: 29px;
+                            height: 21px;
+                        }
+                        span{
+                            font-family: 'lato-light', Verdana, sans-serif;
+                            color: white;
+                            font-size: 20px;
+                        }
+                        a{
+                            background-image: url("../images/sprite.png");
+                            width: 40px;
+                            height: 35px;
+                            display: block;
+                            color: transparent;
+                            background-position: 0 185px;
+                            min-width: 43px;
+                        }
+                    }
+                    li.orange-content{
+                        display: flex;
+                        justify-content: flex-end;
+                        background-color:#fdb331a6;
+                        a{  
+                            background-position: 0 151px;
+                        }
+                    }
+                }
+            } 
+           }      
+           .content-info{
+               position: absolute;
+               bottom: 0;
+               
+               .icon-vote.like, .icon-vote.dislike{
+                    background-image: url("../images/sprite.png");
+                    width: 30px;
+                    height: 30px;
+                    background-position: -6px 117px;
+                    margin-top: 13px;
+                    background-color: #1cbbb4;
+               }
+               .icon-vote.dislike{
+                   background-position: -6px 94px;
+                   background-color: #ffad1d;
+               }
+             h3{
+                font-family: 'lato-regular',  Verdana, sans-serif;
+                color: white;
+                font-size: 44px;   
+                text-transform: capitalize             
+             } 
+             p{
+                 font-family: 'lato-light', Verdana, sans-serif;
+                 font-size: 16px;
+                 color: white;
+                 margin: 10px 0;
+                 line-height: 19px;                
+             }
+             button{
+                 border-radius: inherit  ;
+                 -webkit-border-radius: inherit  ;
+                 -moz-border-radius: inherit  ;
+                 -ms-border-radius: inherit  ;
+                 -o-border-radius: inherit  ;
+                 margin-bottom: 30px;
+            }
+            .job-info{
+                p{
+                   font-family: 'lato-regular', Verdana, sans-serif;
+                   font-size: 12px;
+                   color: white;
+                   margin-top: 0;
+                   text-align: right;
+                   span{
+                       font-family: 'lato-bold', Verdana, sans-serif;
+                       color: white;
+                   }
+                }
+            } 
+           }
+           
+       }
+       .add-name{
+           background-image: url("../images/add_name.jpg");
+           height: 80px;
+           padding: 10px 0;
+           margin: 35px 0;
+           align-items: center;
+           p{
+                font-family: 'lato-light', Verdana, sans-serif;
+                font-size: 17px;
+           }
+           .btn{
+                border-radius: inherit  ;
+                -webkit-border-radius: inherit  ;
+                -moz-border-radius: inherit  ;
+                -ms-border-radius: inherit  ;
+                -o-border-radius: inherit  ;
+            }
+        }
+    }
+}
+footer{
+    .footer-content{
+        padding: 25px 0;
+        border-top: dotted #979797 1px;
+        p,a{
+            font-family: 'lato-light', Verdana, sans-serif;
+            color: #333333;
+            font-size: 12px;
+        }
+        ul.social-media{            
+                justify-content: center;              
+        }
+        ul{
+             li{
+                align-items: center;
+                justify-content: center;
+                display: flex;
+            } 
+        }
+
+        .facebook, .twitter{
+            a{
+                background-image: url("../images/sprite.png");
+                background-position: 0 66px;
+                width: 35px;
+                height: 30px;
+                display: block;
+                color: transparent;
+            }            
+        }
+        .twitter{
+            a{
+                background-position: 0 35px;
+            }
+        }
+    }
+}
+.row{
+     margin-right: 0;
+     margin-left: 0;
+}
+@media (min-width: 768px) 
+{
+    .banner-section{
+        .container-box{
+            .content{
+              .info{
+                  h1{
+                    font-size: 60px; 
+                  }
+                 p:nth-child(3){
+                    font-size: 21px;
+                 } 
+              }  
+            }
+        }
+    }    
+    main{
+        section{
+            .add-name {
+                padding: 10px 25px;
+                p{
+                    font-size: 30px;
+                }
+            }
+        }
+    }     
+    
+}
+// .navbar.blue{
+//     background-color: #fdb331cf;
+// }
+// .red{
+//     background-color: red;
+// }
+
+  
