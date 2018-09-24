@@ -110,8 +110,8 @@ function getPercent(votes) {
         const dislikeStorage = votes[index].dislikeVote;        
     
         let total = likeStorage+dislikeStorage;
-        let percentlike = Number(likeStorage * 100 / total)
-        let percentdislike = Number(dislikeStorage * 100 / total)
+        let percentlike = likeStorage * 100 / total
+        let percentdislike = dislikeStorage * 100 / total
 
         let resultLike = percentlike.toFixed(1)
         let resultDisLike = percentdislike.toFixed(1)        
